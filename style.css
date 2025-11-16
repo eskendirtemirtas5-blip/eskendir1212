@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f6f9;
+}
+
+header {
+    background: linear-gradient(135deg, #ff0000, #990000);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.day {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #e0e0e0;
+}
+
+.day-name {
+    background: #ffeb3b;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.lesson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.lesson:last-child {
+    border-bottom: none;
+}
+
+.time { font-weight: bold; }
+.cab { color: #555; }
+
+/* Цвета предметов */
+.sub { padding: 5px; border-radius: 6px; text-align: center; }
+
+.m1 { background: #7fb3ff; }
+.blue { background: #3fa9f5; color: white; }
+.purple { background: #a65ff2; color: white; }
+.yellow { background: #fff176; }
+.green { background: #81c784; }
+.pink { background: #ffc0cb; }
